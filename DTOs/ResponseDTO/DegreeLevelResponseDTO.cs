@@ -1,0 +1,9 @@
+﻿namespace UniversityManagmentSystem.DTOs.ResponseDTO
+{
+    public class DegreeLevelResponseDTO : BaseResponseDTO
+    {
+        public string DegreeLevelName { get; set; }
+        public string Description { get; set; }
+        public string Code { get; set; }
+    }
+}
